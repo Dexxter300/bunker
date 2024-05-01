@@ -1,14 +1,23 @@
 import { getRndInteger } from 'utiles/randomazier';
+import data from '../data';
 
-const randomizeBUnker = ({ players }) => {
+export const randomizeBunker = ({ players }) => {
   const result = [];
   for (let i = 0; i < players; i++) {
-    const age = Math.random();
-    const name = null;
-    const occupation = null;
-    const heath = null;
-    const inventory = null;
-    const wildcards = null;
-    const hobby = null;
+    console.log('nigga');
+    result.push({
+      age: data.age[getRndInteger(data.age.length)],
+      name: data.names[getRndInteger(data.names.length)],
+      occupation: data.occupation[getRndInteger(data.occupation.length)],
+      health:
+        Math.random() <= 0.7
+          ? data.health[getRndInteger(data.health.length)]
+          : 'здоров',
+      inventory: data.items[getRndInteger(data.items.length)],
+      wildcards: data.wildcards[getRndInteger(data.wildcards.length)],
+      hobby: data.hobby[getRndInteger(data.hobby.length)],
+      phobia: data.phobias[getRndInteger(data.phobias.length)],
+    });
   }
+  return result;
 };
