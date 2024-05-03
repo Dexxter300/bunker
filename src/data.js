@@ -411,7 +411,7 @@ const roomTypes = [
   'Комната для секса',
 ];
 
-export default {
+const result = {
   health,
   phobias,
   occupation,
@@ -424,3 +424,5 @@ export default {
   backstories,
   roomTypes,
 };
+
+export default result;
