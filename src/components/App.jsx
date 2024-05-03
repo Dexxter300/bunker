@@ -1,12 +1,11 @@
-import { randomizeBunker } from './bunkerRandom';
-import { Card } from './card/card';
+// import { randomizeBunker } from './bunkerRandom';
+// import { Card } from './card/card';
 import { MafiaPage } from 'pages/mafia/mafiaPage';
 import { BunkerPage } from 'pages/bunker/bunkerPage';
 import { Layout } from 'Layout';
 import { Route, Routes } from 'react-router-dom';
 
 export const App = () => {
-  console.log(randomizeBunker({ players: 10 }));
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
