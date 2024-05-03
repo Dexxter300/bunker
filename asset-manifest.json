@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/Dexxter300/bunker/static/css/main.7acaea2f.css",
-    "main.js": "/Dexxter300/bunker/static/js/main.07d3183d.js",
+    "main.css": "/Dexxter300/bunker/static/css/main.f863fa75.css",
+    "main.js": "/Dexxter300/bunker/static/js/main.498d3bdc.js",
+    "static/media/nuclear-reactor-svgrepo-com.svg": "/Dexxter300/bunker/static/media/nuclear-reactor-svgrepo-com.1b99d33c746b7552ac77.svg",
     "index.html": "/Dexxter300/bunker/index.html",
-    "main.7acaea2f.css.map": "/Dexxter300/bunker/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/Dexxter300/bunker/static/js/main.07d3183d.js.map"
+    "static/media/lightning-bolt-svgrepo-com.svg": "/Dexxter300/bunker/static/media/lightning-bolt-svgrepo-com.e0647a874161ed93e529.svg",
+    "main.f863fa75.css.map": "/Dexxter300/bunker/static/css/main.f863fa75.css.map",
+    "main.498d3bdc.js.map": "/Dexxter300/bunker/static/js/main.498d3bdc.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.f863fa75.css",
+    "static/js/main.498d3bdc.js"
   ]
 }
