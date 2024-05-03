@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Dexxter300/bunker/static/css/main.f863fa75.css",
-    "main.js": "/Dexxter300/bunker/static/js/main.cb9d2b61.js",
-    "static/media/nuclear-reactor-svgrepo-com.svg": "/Dexxter300/bunker/static/media/nuclear-reactor-svgrepo-com.1b99d33c746b7552ac77.svg",
-    "index.html": "/Dexxter300/bunker/index.html",
-    "static/media/lightning-bolt-svgrepo-com.svg": "/Dexxter300/bunker/static/media/lightning-bolt-svgrepo-com.e0647a874161ed93e529.svg",
-    "main.f863fa75.css.map": "/Dexxter300/bunker/static/css/main.f863fa75.css.map",
-    "main.cb9d2b61.js.map": "/Dexxter300/bunker/static/js/main.cb9d2b61.js.map"
+    "main.css": "//dexxter300.github.io/bunker/static/css/main.23809aac.css",
+    "main.js": "//dexxter300.github.io/bunker/static/js/main.cb9d2b61.js",
+    "static/media/nuclear-reactor-svgrepo-com.svg": "//dexxter300.github.io/bunker/static/media/nuclear-reactor-svgrepo-com.1b99d33c746b7552ac77.svg",
+    "index.html": "//dexxter300.github.io/bunker/index.html",
+    "static/media/lightning-bolt-svgrepo-com.svg": "//dexxter300.github.io/bunker/static/media/lightning-bolt-svgrepo-com.e0647a874161ed93e529.svg",
+    "main.23809aac.css.map": "//dexxter300.github.io/bunker/static/css/main.23809aac.css.map",
+    "main.cb9d2b61.js.map": "//dexxter300.github.io/bunker/static/js/main.cb9d2b61.js.map"
   },
   "entrypoints": [
-    "static/css/main.f863fa75.css",
+    "static/css/main.23809aac.css",
     "static/js/main.cb9d2b61.js"
   ]
 }
