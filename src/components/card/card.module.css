@@ -1,0 +1,122 @@
+.card {
+  background-size: auto;
+  background-image: url('../../imgs/nuclear-reactor-svgrepo-com.svg');
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: center;
+  background-color: rgb(31, 31, 31);
+
+  width: 350px;
+  height: 600px;
+  border-radius: 20px;
+  border: 5px solid;
+  border-color: #ffcc00;
+  padding: 10px;
+  color: white;
+  transition: border-color 1000ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.card:hover {
+  /* border-color: #6b6b6b; */
+  border-color: #8a7e11;
+}
+
+.card:hover > .statsList > .statsItem {
+  /* border-color: #6b6b6b; */
+  border-color: #8a7e11;
+}
+
+.statsList {
+  list-style: none;
+  padding: 0;
+}
+
+.statsItem {
+  padding-top: 10px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #ffcc00;
+  transition: border-color 1000ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.player {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.statsItemText {
+  margin: 0;
+  padding-left: 10px;
+}
+
+.abilytiesList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  padding-top: 10px;
+  justify-content: center;
+}
+
+.abilytiesItem {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #ffcc00;
+  border-radius: 20px;
+  width: 60%;
+  height: 280px;
+  background-color: rgb(12, 12, 12);
+  background-image: url(../../imgs/lightning-bolt-svgrepo-com.svg);
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: center;
+  transition: border-color 1000ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.abilytiesItem:hover {
+  border-color: #8a7e11;
+}
+
+.abilytiesItem:hover > .abilytiesTitle {
+  border-color: #8a7e11;
+}
+
+.abilytiesText {
+  font-size: 20px;
+  margin: 0;
+  width: 90%;
+  text-align: center;
+  margin-bottom: 20px;
+  /* padding-left: 5px;
+  padding-right: 5px; */
+}
+
+.abilytiesTitle {
+  font-size: 20px;
+  margin: 0;
+  padding: 5px;
+
+  border-bottom: 1px solid #ffcc00;
+  margin-bottom: 35px;
+  transition: border-color 1000ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.useButton {
+  border: 0px;
+  border-radius: 5px;
+  height: 40px;
+  width: 80px;
+  font-size: 15px;
+  background-color: #ffcc00;
+  color: white;
+  transition: background-color 1000ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.useButton:hover {
+  background-color: #8a7e11;
+}
+
+.useButton:disabled {
+  background-color: #6b6b6b;
+}

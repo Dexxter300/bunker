@@ -1,3 +1,5 @@
+import css from './mafiaPage.module.css';
+
 export const MafiaPage = () => {
-  return <div>Coming Soon.....</div>;
+  return <div className={css.mafia}>Coming Soon.....</div>;
 };

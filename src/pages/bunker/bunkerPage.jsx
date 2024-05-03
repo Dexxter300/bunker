@@ -1,7 +1,9 @@
+import { Form } from 'components/form/Form';
+
 export const BunkerPage = () => {
   return (
     <>
-      <div>bunker</div>
+      <Form />
     </>
   );
 };

@@ -1,0 +1,106 @@
+.button {
+  display: block;
+  background-color: #ffcc00;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
+  width: 300px;
+  border-radius: 10px;
+  border: 0px;
+  transition: color 2000ms cubic-bezier(0.075, 0.82, 0.165, 1),
+    background-color 2000ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.button:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.cardsList {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-bottom: 80px;
+  justify-content: center;
+}
+
+.backstoryCard {
+  background-color: rgb(31, 31, 31);
+  border-radius: 20px;
+  border: 5px solid;
+  /* padding-top: 100px; */
+  border-color: #ffcc00;
+  padding: 10px;
+  color: white;
+}
+
+.backstoryTitle {
+  padding-left: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ffcc00;
+}
+
+.backstoryText {
+  font-size: 20px;
+  /* padding-left: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ffcc00; */
+}
+
+.gameContainer {
+  padding-bottom: 100px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  height: 100vh;
+  padding-top: 100px;
+  color: #ffcc00;
+  background-image: url(../../imgs/nuclear-reactor-svgrepo-com.svg);
+  /* background-repeat: no-repeat; */
+  background-size: 500px;
+  background-position-x: 50%;
+}
+
+.label {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.createButton {
+  display: block;
+  background-color: #ffcc00;
+  font-size: 20px;
+  height: 60px;
+  width: 300px;
+  border-radius: 10px;
+  border: 0px;
+  transition: color 2000ms cubic-bezier(0.075, 0.82, 0.165, 1),
+    background-color 2000ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.createButton:hover {
+  background-color: #8a7e11;
+}
+
+.input {
+  height: 40px;
+  width: 400px;
+  font-size: 20px;
+  padding-left: 15px;
+  color: white;
+  background-color: #6b6b6b;
+  border: 0px;
+  outline: 0;
+  border-radius: 10px;
+  transition: outline 100ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.input:focus {
+  outline: 3px solid #8a7e11;
+}
