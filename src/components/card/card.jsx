@@ -17,8 +17,13 @@ export const Card = ({ data, playerNumber }) => {
           <p className={css.statsItemText}>name: {data.name}</p>
         </li>
         <li className={css.statsItem}>
-          <p className={css.statsItemText}>age: {data.age}</p>
+          <p className={css.statsItemText}>
+            age: {data.age} orientation: {data.orientation}
+          </p>
         </li>
+        {/* <li className={css.statsItem}>
+          <p className={css.statsItemText}>orientation: {data.orientation}</p>
+        </li> */}
         <li className={css.statsItem}>
           <p className={css.statsItemText}>health: {data.health}</p>
         </li>

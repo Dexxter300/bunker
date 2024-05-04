@@ -15,7 +15,7 @@ export const generateStory = players => {
   const playersQuota = Math.round(
     (players.players / 100) * 55 + Math.random() - Math.random()
   );
-  const bunkerArea = Math.round(playersQuota * 30 * Math.random());
+  const bunkerArea = Math.round(playersQuota * 30 * Math.random() + 20);
   const bunkerRooms = calculateBunkerRooms({ area: bunkerArea });
 
   return {

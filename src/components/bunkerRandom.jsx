@@ -17,6 +17,10 @@ export const randomizeBunker = ({ players }) => {
       wildcards: data.wildcards[getRndInteger(data.wildcards.length)],
       hobby: data.hobby[getRndInteger(data.hobby.length)],
       phobia: data.phobias[getRndInteger(data.phobias.length)],
+      orientation:
+        Math.random() <= 0.6
+          ? data.orientation[getRndInteger(data.orientation.length)]
+          : 'гетеро',
     });
   }
   return result;
