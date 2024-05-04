@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bunker/static/css/main.94c57961.css",
-    "main.js": "/bunker/static/js/main.cb9d2b61.js",
+    "main.css": "/bunker/static/css/main.128a2eb6.css",
+    "main.js": "/bunker/static/js/main.072a44ee.js",
     "static/media/nuclear-reactor-svgrepo-com.svg": "/bunker/static/media/nuclear-reactor-svgrepo-com.1b99d33c746b7552ac77.svg",
     "index.html": "/bunker/index.html",
     "static/media/lightning-bolt-svgrepo-com.svg": "/bunker/static/media/lightning-bolt-svgrepo-com.e0647a874161ed93e529.svg",
-    "main.94c57961.css.map": "/bunker/static/css/main.94c57961.css.map",
-    "main.cb9d2b61.js.map": "/bunker/static/js/main.cb9d2b61.js.map"
+    "main.128a2eb6.css.map": "/bunker/static/css/main.128a2eb6.css.map",
+    "main.072a44ee.js.map": "/bunker/static/js/main.072a44ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.94c57961.css",
-    "static/js/main.cb9d2b61.js"
+    "static/css/main.128a2eb6.css",
+    "static/js/main.072a44ee.js"
   ]
 }
